@@ -1,5 +1,5 @@
 <h1>TEST MLP CLASSIFICATION</h1>
-<p>Les étapes parcours:</p>
+<p>Les étapes parcourus:</p>
 <h2>CREATION DU MODEL MLP</h2>
 <p>Etape 1: choix du data set: 'digits dataset)</br>
 Etape 2: visualisation du data set</br>
