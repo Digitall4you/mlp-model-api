@@ -1,4 +1,3 @@
-# mlp-model-api
 <h1>TEST MLP CLASSIFICATION</h1>
 <p>Les étapes parcours:</p>
 ###CREATION DU MODEL MLP#
