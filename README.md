@@ -15,4 +15,4 @@
   <li>Etape 8: run app.py sous windows prompt (app.py: chargement du modèle d'apprentissage, paramètrage du route, requête pour une prédiction)  et implémentation du requête, pour une prédiction</li>
 </ul>
 <h2>ACCES RAPIDE AU TEST</h2>
-[Link vers Test](http://127.0.0.1:8000 "Redirection vers une page web pour le test")
+[Liens vers Test](http://127.0.0.1:8000 "Accurate and prediction test's")
