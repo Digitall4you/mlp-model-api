@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MLP Model as a Flask API</title>
+</head>
+
+<body bgcolor="#b0e0e6">
+</br></br></br>
+<h1 align="center">Hand written digits predictor</h1> </br></br>
+
+<p align="center">
+    After importing MLP model classification as API using flask framework, we can test it via prediction method and get results such: accuracy.
+    Then, we are using "X_test.csv" and "y_test.csv", exporting from the MINIST data sets, for the test of prediction.
+</p>
+
+    <form action="/accurate" method="post" enctype="multipart/form-data">
+    <center>
+          <input type="submit" value="Accuracy"> </br></br> {% if accuracy %} {{ accuracy }} {% endif %} </br></br>
+    </center>
+    </form></br>
+
+<p align="center">
+    Here, we are trying to predict images out of our testing sets "X_test.csv".
+    Then, this page allow importation of  test image and its prediction with our machine learning API "model_MLP.pkl".
+</p></br>
+
+    <form action="/predict" method="post" enctype="multipart/form-data">
+    <center>
+          <input type="file" name="image" value="Upload">
+          <input  type="submit" value="Predict"> </br></br>{% if label %} {{ label }} {% endif %}
+    </center>
+    </form>
+
+</body>
+
+</html>

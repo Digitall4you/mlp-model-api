@@ -1,0 +1,7 @@
+Python==2.7.15Flask==1.0.2
+Jinja2==2.10
+numpy==1.14.3pandas0.23.0
+scikit-learn==0.19.1
+scipy==1.1.0
+htlm5lib==1.0.1jupiter1.0.0
+jupiter-client5.2.3jupiter-console5.2.0jupiter-core4.4.0jupiterlab0.32.1jupiter-launcher0.10.5
